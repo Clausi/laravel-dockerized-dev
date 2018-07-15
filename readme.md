@@ -5,7 +5,7 @@
 ### Firstrun:
 Install dependencies with a temporary composer docker container from "src" folder
 ```
-docker run --rm -v $(pwd):/app composer install
+docker run --rm -v $(pwd)/src:/app composer install
 ```
 
 Run the composed images
