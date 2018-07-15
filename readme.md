@@ -32,6 +32,6 @@ You can generate an alias to simplify executing code inside your app container:
 alias phpd="docker-compose exec app php"
 alias npmd="docker-compose exec app npm"
 ```
-(Add this to ~/bash_alias to make it a permanent alias)
+*Add this to ~/.bash_alias to make it a permanent alias*
 
 Firstrun might take a while, from now on you can "docker-compose up -d" or "docker-compose down" in a few seconds
